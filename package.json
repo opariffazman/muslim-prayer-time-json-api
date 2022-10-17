@@ -1,7 +1,7 @@
 {
   "name": "muslim-prayer-time-json-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "simple prayer time API based on PrayTimes.org calculation",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/opariffazman/muslim-prayer-time-json-api.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "opariffazman",
+  "license": "GNU LGPL v3.0",
   "bugs": {
     "url": "https://github.com/opariffazman/muslim-prayer-time-json-api/issues"
   },

@@ -21,6 +21,10 @@ app.get('/api/today', async (req, res) => {
   res.send(prayerTimes.getTimes(new Date(), [latitude, longitude], timezone)).end()
 })
 
+app.get('*', async (req, res) => {
+  res.send('no endpoint listening here :)').end()
+})
+
 // Start the server
 const port = process.env.PORT || 3000
 app.listen(port, () => {

@@ -18,7 +18,5 @@ request query: **latitude**, **longitude**, **timezone** & **method**
 
 ## example
 ```
-curl https://muslim-prayer-times.cyclic.app/api/today?latitude=3&longitude=101&timezone=8&method=Egypt
+curl 'https://muslim-prayer-times.cyclic.app/api/today?latitude=3&longitude=101&timezone=8&method=Egypt'
 ```
-
-# test
